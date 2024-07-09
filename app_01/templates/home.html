@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HOME</title>
+</head>
+<body>
+{% for val in data %}
+    <p>{{ val.name }}</p>
+    <p>{{ val.age }}</p>
+    <p>{{ val.mobile }}</p>
+{% endfor %}
+</body>
+</html>
